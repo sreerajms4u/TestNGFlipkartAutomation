@@ -18,7 +18,7 @@ public class TC_ProductPurchaseClass extends BaseClass{
 	@Test(priority=1)
 	  public void Main() {
 		
-			ProductPurchaseTestReporter.info("Loading Browser...");
+			ProductPurchaseTestReporter.info("Loading Chrome Browser...");
 			LaunchUrl();
 			ProductPurchaseTestReporter.info("Loaded URL");
 			Login objLogin = new Login();
