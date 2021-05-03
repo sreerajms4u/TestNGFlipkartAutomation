@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TC to test Flipkart Search functioanlity started]]>
+    </line>
+    <line>
+      <![CDATA[TC to test Flipkart Search functioanlity ended]]>
+    </line>
+    <line>
+      <![CDATA[TC to test Flipkart Product purchase functioanlity ended]]>
+    </line>
+  </reporter-output>
+  <suite name="BrowserStack Flipkart automtion suite" duration-ms="91349" started-at="2021-05-03T18:45:30Z" finished-at="2021-05-03T18:47:02Z">
+    <groups>
+    </groups>
+    <test name="BrowserStack Test - Chrome" duration-ms="91349" started-at="2021-05-03T18:45:30Z" finished-at="2021-05-03T18:47:02Z">
+      <class name="Pages.TC_ProductPurchaseClass">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Pages.TC_ProductPurchaseClass@67e2d983]" name="beforeTest" is-config="true" duration-ms="15231" started-at="2021-05-04T00:15:30Z" finished-at="2021-05-04T00:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Main()[pri:0, instance:Pages.TC_ProductPurchaseClass@67e2d983]" name="Main" duration-ms="13534" started-at="2021-05-04T00:15:46Z" finished-at="2021-05-04T00:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Main -->
+        <test-method status="PASS" signature="searchproduct()[pri:0, instance:Pages.TC_ProductPurchaseClass@67e2d983]" name="searchproduct" duration-ms="41707" started-at="2021-05-04T00:15:59Z" finished-at="2021-05-04T00:16:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC to test Flipkart Search functioanlity started]]>
+            </line>
+            <line>
+              <![CDATA[TC to test Flipkart Search functioanlity ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="productpurchase()[pri:0, instance:Pages.TC_ProductPurchaseClass@67e2d983]" name="productpurchase" duration-ms="18991" started-at="2021-05-04T00:16:41Z" finished-at="2021-05-04T00:17:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TC to test Flipkart Product purchase functioanlity ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- productpurchase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Pages.TC_ProductPurchaseClass@67e2d983]" name="afterTest" is-config="true" duration-ms="1866" started-at="2021-05-04T00:17:00Z" finished-at="2021-05-04T00:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Pages.TC_ProductPurchaseClass -->
+    </test> <!-- BrowserStack Test - Chrome -->
+  </suite> <!-- BrowserStack Flipkart automtion suite -->
+</testng-results>

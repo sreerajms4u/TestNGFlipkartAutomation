@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="3" name="Failed suite [BrowserStack Test automtion regression suite]" parallel="tests">
+  <parameter name="os" value="Windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="browser_version" value="85.0"/>
+  <test name="BrowserStack Test - Chrome(failed)" parallel="tests">
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="browser_version" value="85.0"/>
+    <classes>
+      <class name="Pages.TC_ProductPurchaseClass">
+        <methods>
+          <include name="searchproduct"/>
+          <include name="productpurchase"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Pages.TC_ProductPurchaseClass -->
+    </classes>
+  </test> <!-- BrowserStack Test - Chrome(failed) -->
+</suite> <!-- Failed suite [BrowserStack Test automtion regression suite] -->

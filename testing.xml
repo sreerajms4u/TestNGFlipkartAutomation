@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Apps">
+    <test name="WIN10TEST_CHROME">
+        <parameter name="browser" value="Chrome" />
+        <parameter name="version" value="71.0" />
+        <classes>
+            <class name="TC_ProductPurchaseClass" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->
